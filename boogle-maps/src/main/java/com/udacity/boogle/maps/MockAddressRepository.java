@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 /**
  * Implements a mock repository for generating a random address.
  */
-class MockAddressRepository {
+public class MockAddressRepository {
 
     /**
      * Gets a random address from the list.
