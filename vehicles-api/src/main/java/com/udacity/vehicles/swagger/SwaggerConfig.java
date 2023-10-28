@@ -27,11 +27,11 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfo(
-                "Dog REST API",
+                "Vehicles REST API",
                 "This API returns a list of vehicle.",
                 "1.0",
                 "http://www.udacity.com/P02-VehiclesAPI",
-                new Contact("PhuocNguyen", "www.udacity.com", "phuocnq3@udacity.com"),
+                new Contact("PhuocNQ", "www.udacity.com", "phuocnq@fpt.com"),
                 "License of API", "http://www.udacity.com/license", Collections.emptyList());
     }
 }

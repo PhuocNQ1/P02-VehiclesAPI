@@ -40,8 +40,8 @@ public class PricingServiceApplicationTests {
 			mockMvc.perform(get(urlTemplate))
 					.andExpect(status().isOk())
 					.andExpect(MockMvcResultMatchers.jsonPath("vehicleId").value(1L))
-					.andExpect(MockMvcResultMatchers.jsonPath("price").isNumber())
-					.andExpect(MockMvcResultMatchers.jsonPath("currency").value("USD"));
+					.andExpect(MockMvcResultMatchers.jsonPath("currency").value("USD"))
+					.andExpect(MockMvcResultMatchers.jsonPath("price").isNumber());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
